@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var base_ships_1 = require("./base-ships");
+var starfighter_1 = require("./starfighter");
+var _ = require("lodash");
+var ship = new base_ships_1.SpaceCraft('hyperdrive', 'natan');
+ship.jumpIntoHyperspace();
+ship.nome2();
+var falcon = new starfighter_1.mileniumFalcon();
+falcon.jumpIntoHyperspace();
+var goodForTheJob = function (ship) { return ship.cargoContainers > 2; };
+console.log("is falcon good for the job? " + (goodForTheJob(falcon) ? 'yes' : 'no'));
+console.log(_.pad('apenas teste 123', 30, '='));

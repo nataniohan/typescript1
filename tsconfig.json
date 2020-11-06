@@ -1,0 +1,9 @@
+{
+  "compileOnSave" : true,
+  "compilerOption": {
+    "outDir": "dist"
+  },
+  "compilerOptions": {
+    "outDir": "dist"
+  }
+}
